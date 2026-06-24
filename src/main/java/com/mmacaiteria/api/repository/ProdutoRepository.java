@@ -6,5 +6,4 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ProdutoRepository extends MongoRepository<Produto, String> {
-    // O MongoRepository já nos entrega os métodos save(), findAll(), deleteById(), etc.
 }
